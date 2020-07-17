@@ -40,7 +40,7 @@ header > article {
   background-color: black;
 }
 
-hr {
+.main-hr {
   border: 5px solid gray;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -60,4 +60,70 @@ body > img {
 body > section > ul > li > p {
   margin: 15px;
   text-indent: 3em;
+}
+
+body > div > img {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  position: relative;
+  width: 960px;
+}
+
+.container {
+  position: relative;
+}
+
+.list1 {
+  position: absolute;
+  top: 55px;
+  left: 35px;
+  font-size: 30px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.list2 {
+  position: absolute;
+  top: 58px;
+  right: 2px;
+  font-size: 30px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+footer > img:first-of-type {
+  float:left;
+  margin: 10px;
+}
+
+footer > ul > li:first-child{
+  float: left;
+}
+
+h2 {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+button {
+  float: right;
+}
+
+.LastLine {
+  border: 1px solid gray;
+  margin-top: 100px;
+}
+
+.lastContainer {
+  position: relative;
+  margin-bottom: 80px;
+}
+
+.smallLogo {
+  position: absolute;
+  left: 50%;
+  bottom: -18px;
+}
+
+footer > a {
+  outline: dotted 1px blue;
+  text-align: center;
 }
