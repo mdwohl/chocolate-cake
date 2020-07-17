@@ -1,0 +1,63 @@
+/* * {
+  outline: dotted 1px blue;
+} */
+
+body, header, footer {
+  width: 960px;
+}
+
+header {
+  height: 60px;
+  margin-top: 20px;
+}
+
+header > img:first-child {
+  float: left;
+  margin-right: 5px;
+  margin-bottom: 15px;
+}
+
+header > ul {
+  float: left;
+}
+
+header > ul > li > a:first-child {
+  font-size: 30px;
+  font-family: cursive;
+}
+
+header > ul > li > a:nth-child(2) {
+  font-size: 17px;
+  opacity: 0.5;
+}
+
+header > div {
+  float: right;
+  margin-top: 10px;
+ }
+
+header > article {
+  background-color: black;
+}
+
+hr {
+  border: 5px solid gray;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+body > img {
+  margin-top: 20px;
+  width: 960px;
+}
+
+body > section > ul > li > p {
+  margin: 15px;
+  text-indent: 3em;
+}
